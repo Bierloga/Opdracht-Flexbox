@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+
+}
+
+label {
+    display:block;
+}
+
+input.radio {
+    display:inline;
+}
+
+.headerFooter {
+    border:maroon 3px solid;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+}
+
+ul.li {
+    display:inline;
+}
+
+.blogpost { 
+    width: 300px; border: 1px solid black;
+    margin: 10px 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+#rightItem {
+    align-self: flex-end;
+}
+
+#largeItem {
+    flex-grow: 4;
+}
